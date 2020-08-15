@@ -1,12 +1,53 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Courier New';
+  font-size: 14px;
 }
 .container {
   width: 500px;
   margin: 0 auto;
+}
+.navbar {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  margin-bottom: 20px;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: rgba(0,0,0, .6);
+    line-height: 2.5;
+    padding-left: 8px;
+    font-size: 18px;
+  }
+}
+article {
+  a {
+    text-decoration: none;
+    color: #3769B7;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input[type="submit"] {
+  margin-top: 8px;
+  background-color: #3769B7;
+  padding: 8px 16px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+}
+h1 {
+  small {
+    a {
+      i {
+        color: #337AB7;
+      }
+    }
+  }
 }
